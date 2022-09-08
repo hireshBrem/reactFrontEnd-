@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "http://anseljobs.com/static/css/main.67452003.css",
-    "main.js": "http://anseljobs.com/static/js/main.7d6b5288.js",
+    "main.css": "https://anseljobs.com/static/css/main.67452003.css",
+    "main.js": "https://anseljobs.com/static/js/main.7d6b5288.js",
     "static/media/mainpic.jpg": "http://anseljobs.com/static/media/mainpic.fc27001366a7290ac9e9.jpg",
     "static/media/Recruitment_Consultant_Certificate.pdf": "http://anseljobs.com/static/media/Recruitment_Consultant_Certificate.c10d1b776130acdcab63.pdf",
     "static/media/recPic.jpeg": "http://anseljobs.com/static/media/recPic.44ca9eab55f3a3e369ef.jpeg",
     "static/media/logo.jpg": "http://anseljobs.com/static/media/logo.19a6c29e8c5031b807ad.jpg",
     "index.html": "http://anseljobs.com/index.html",
-    "main.67452003.css.map": "http://anseljobs.com/static/css/main.67452003.css.map",
-    "main.7d6b5288.js.map": "http://anseljobs.com/static/js/main.7d6b5288.js.map"
+    "main.67452003.css.map": "https://anseljobs.com/static/css/main.67452003.css.map",
+    "main.7d6b5288.js.map": "https://anseljobs.com/static/js/main.7d6b5288.js.map"
   },
   "entrypoints": [
     "static/css/main.67452003.css",
