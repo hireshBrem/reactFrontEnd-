@@ -2,6 +2,7 @@
   "name": "ansel-jobs-react-site",
   "homepage": "https://anseljobs.com/",
   "version": "0.1.0",
+  "private": false,
   "description": "This is the Ansel Jobs site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
