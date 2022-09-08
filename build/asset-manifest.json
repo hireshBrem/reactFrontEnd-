@@ -11,7 +11,7 @@
     "main.53e5fece.js.map": "https://anseljobs.com/static/js/main.53e5fece.js.map"
   },
   "entrypoints": [
-    "static/css/main.67452003.css",
-    "static/js/main.53e5fece.js"
+    "https://anseljobs.com/static/css/main.67452003.css",
+    "https://anseljobs.com/static/js/main.53e5fece.js"
   ]
 }
