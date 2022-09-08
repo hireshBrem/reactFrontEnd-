@@ -19,12 +19,9 @@ const Navbar = () => {
                 <NavLink className="inline-block mx-4 hover:text-blue-800 border-blue-800 cursor-pointer" to="/contact"> Contact </NavLink>      
             </ul>
             <Menu className=''>
-                {/* <a id="home" className="menu-item" href="/">Home</a>
-                <a id="about" className="menu-item" href="/about">About</a>
-                <a id="contact" className="menu-item" href="/contact">Contact</a> */}
-                <NavLink className="menu-item" to="/"> Home </NavLink>
-                <NavLink className="menu-item" to="/about"> About </NavLink>
-                <NavLink className="menu-item" to="/contact"> Contact </NavLink>      
+                <a id="home" className="menu-item" href="https://anseljobs.com/">Home</a>
+                <a id="about" className="menu-item" href="https://anseljobs.com/about">About</a>
+                <a id="contact" className="menu-item" href="https://anseljobs.com/contact">Contact</a>
             </Menu>
         </nav>
         <div className="h-[140px] bg-white"></div>
