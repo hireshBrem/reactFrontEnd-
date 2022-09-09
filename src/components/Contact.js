@@ -53,10 +53,10 @@ const Contact = () => {
           </form> */}
           <form name="contact" method="POST" netlify className='sm:max-w-xl max-w-xs m-auto text-[20px] mb-10'> 
             <h1 className='ml-5 mt-8 text-[40px] mb-10'>Contact Form</h1>
-            <input type="hidden" name="form-name" value="contact" id="fName" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your First Name" />
-            <input type="hidden" name="form-name" value="contact" id="fName" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your Last Name" />
-            <input type="hidden" name="form-name" value="contact" id="email" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your Email" />
-            <textarea type="hidden" name="form-name" value="contact" id="message" required className="bg-transparent border-2 rounded m-3 sm:w-[96%] w-[92%] h-40 p-3 mt-6" placeholder="Your Message"></textarea>
+            <input type="hidden" name="form-firstname" value="contact" id="fName" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your First Name" />
+            <input type="hidden" name="form-lastname" value="contact" id="fName" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your Last Name" />
+            <input type="hidden" name="form-email" value="contact" id="email" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your Email" />
+            <textarea type="hidden" name="form-message" value="contact" id="message" required className="bg-transparent border-2 rounded m-3 sm:w-[96%] w-[92%] h-40 p-3 mt-6" placeholder="Your Message"></textarea>
             <button className="bg-white sm:w-[96%] w-[92%] m-3 rounded-md p-1 text-blue-800 font-poppins" type="submit">SUBMIT</button>
           </form>
         </div>
