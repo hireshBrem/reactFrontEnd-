@@ -36,7 +36,6 @@ const Contact = () => {
 
 
   useEffect(() => {
-    window.location.reload(false)
     document.title = "Ansel Jobs | Contact Us";
   })
   
