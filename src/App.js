@@ -14,7 +14,6 @@ import Page from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import withRouter from './components/ScrollToTop';
 import Contact2 from './components/Contact2';
 import ErrorPage from './components/ErrorPage';
 
