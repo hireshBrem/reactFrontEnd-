@@ -5,6 +5,7 @@ import recPic from '../pics/recPic.jpeg';
 
 const About = () => {
   useEffect(() => {
+    window.location.reload(false)
     document.title = "Ansel Jobs | About Us"
   })
 

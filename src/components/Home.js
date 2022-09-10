@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 
 const Home = () => {
   useEffect(() => {
+    window.location.reload(false)
     document.title = "Ansel Jobs | Investing Into Your Future"
   })
   
