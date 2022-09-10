@@ -24,7 +24,6 @@ function App() {
     
     <BrowserRouter>
     <Navbar />
-    <ScrollToTop />
       <MediaBar />
       <Routes>
         <Route path="/" element={<Home />}/>
