@@ -69,6 +69,7 @@ const Contact = () => {
             </div>            
             <button className="bg-white sm:w-[96%] w-[92%] m-3 rounded-md p-1 text-blue-800 font-poppins" type="submit">SUBMIT</button>
           </form>
+
         </div>
       </section>     
     </>
