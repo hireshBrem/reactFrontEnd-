@@ -11,7 +11,7 @@ const Navbar = () => {
   <>
     <section className="relative z-10">
         <nav className="fixed w-[100%] bg-white font-poppins">
-            <img src={logoImage}  className="w-48 inline-block m-2 mx-8 mt-6 mb-10"/>
+            <img src={logoImage}  className="w-48 inline-block m-2 ml-8 mr-5 mt-6 mb-10"/>
 
             <ul className="mb-1 mt-14 mr-24 sm:font-helvetica float-right text-black text-[17px] sm:inline-block hidden">
                 <NavLink className="inline-block mx-4 hover:text-blue-800 border-blue-800 cursor-pointer" to="/"> Home </NavLink>
