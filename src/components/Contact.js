@@ -52,22 +52,20 @@ const Contact = () => {
             <textarea id="message" value={message} required className="bg-transparent border-2 rounded m-3 sm:w-[96%] w-[92%] h-40 p-3 mt-6" placeholder="Your Message" onChange={(e)=> setMessage(e.target.value)}></textarea>
             <button className="bg-white sm:w-[96%] w-[92%] m-3 rounded-md p-1 text-blue-800 font-poppins" type="submit">SUBMIT</button>
           </form> */}
-          <form name="contact v1" method="post" data-netlify="true" onSubmit="submit" className='sm:max-w-xl max-w-xs m-auto text-[20px] mb-10'> 
-            <h1 className='ml-5 mt-8 text-[40px] mb-10'>Contact Form</h1>
-            <input type="hidden" name="form-name" value="contact v1" id="fName" required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" placeholder="Your First Name" />
-
-            <div>
-              <label>First name
-                <input type="text" id="first-name" className='text-black' />
-              </label>
-            </div>            
-
-            <div>
-              <label>Last name
-                <input type="text" id="last-name" className='text-black'/>
-              </label>
-            </div>            
-            <button className="bg-white sm:w-[96%] w-[92%] m-3 rounded-md p-1 text-blue-800 font-poppins" type="submit">SUBMIT</button>
+          <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
+            <p>
+              <label>Your Name: <input type="text" name="name"/></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email"/></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
 
         </div>
