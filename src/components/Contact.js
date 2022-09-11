@@ -43,7 +43,7 @@ const Contact = () => {
   return (
     <>
       <section className=''>
-        <div className="bg-blue-800 xs:w-[90%] w-[100%] m-auto flex flex-wrap flex-col font-poppins text-white shadow-2xl rounded mt-20">
+        <div className="bg-blue-800 w-[90%] m-auto flex flex-wrap flex-col font-poppins text-white shadow-2xl rounded mt-20">
           {/* <form onSubmit={(e) => {postContact(e)}} className='sm:max-w-xl max-w-xs m-auto text-[20px] mb-10'> 
             <h1 className='ml-5 mt-8 text-[40px] mb-10'>Contact Form</h1>
             <input id="fName" value={firstname} required className="bg-transparent m-3 p-3 border-b-2 sm:w-[96%] w-[92%]" type="text" placeholder="Your First Name" onChange={(e)=> setFirstName(e.target.value)} onSubmit={(e) => e.target.value=""}/>
