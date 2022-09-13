@@ -1,8 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
 
-import recPic from '../pics/recPic.jpeg';
-
 const About = () => {
   useEffect(() => {
     document.title = "Ansel Jobs | About Us"
