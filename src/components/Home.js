@@ -1,57 +1,61 @@
-import React from 'react'
+import React, { useState } from 'react'
 import mainImage from '../pics/mainpic.jpg';
 import { useEffect } from 'react';
+import ReactLoading from 'react-loading';
+import AnimatedPage from './AnimatedPage'
 
 const Home = () => {
+
   useEffect(() => {
     document.title = "Ansel Jobs | Investing Into Your Future"
   })
   
   return (
     <>
+      <AnimatedPage>
+      {
+      <>
       <div>
-          <div className="relative md:ml-16 ml-0">
-            <div className="z-0 mt-16 mb-20 font-bold ml-16 md:ml-0"><h1 className="font-poppins font-bold inline sm:text-[100px] text-[55px]">Investing into Your</h1><h1 className="font-poppins font-bold inline text-blue-800 sm:text-[100px] text-[55px]"> Future</h1></div>
-            <section className="">
-              <div className="relative w-[100%] bg-blue-800"><img className="py-5 pl-5" src={mainImage}></img></div>    
-            </section>
-          </div>
+        <div className="relative md:ml-16 ml-0">
+          <div className="z-0 mt-16 mb-20 font-bold ml-16 md:ml-0"><h1 className="font-poppins font-bold inline sm:text-[100px] text-[55px]">Investing into Your</h1><h1 className="font-poppins font-bold inline text-blue-800 sm:text-[100px] text-[55px]"> Future</h1></div>
+          <section className="">
+            <div className="relative w-[100%] bg-blue-800"><img className="py-5 pl-5" src={mainImage}></img></div>    
+          </section>
+        </div>
       </div>
       <section className="relative m-auto max-w-6xl">
         <div className=" mt-32">
-            <div className='mt-32'>
-              <h1 className="p-5 font-poppins text-[35px] text-center lg:text-left">View Jobs Sectors</h1>
-              <div className="flex flex-wrap flex-row text-[20px] justify-center text-center text-white mx-3 sm:mx-0">
-                <div className="flex flex-col flex-wrap w-[350px] mr-1 mb-1">
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Healthcare</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Marketing</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">IT</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md">Science</div>
-                </div>
-                
-                <div className="flex flex-col flex-wrap w-[350px] mr-1 mb-1">
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Retail</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Construction</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Pharmaceutical</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md">Logistics</div>
-                </div>
-
-                <div className="flex flex-col flex-wrap w-[350px] mr-1 mb-1">
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Finance & Accounting</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Business</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Engineering</div>
-                  <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md">Law</div>
-                </div>
+          <div className='mt-32'>
+            <h1 className="p-5 font-poppins text-[35px] text-center lg:text-left">View Jobs Sectors</h1>
+            <div className="flex flex-wrap flex-row text-[20px] justify-center text-center text-white mx-3 sm:mx-0">
+              <div className="flex flex-col flex-wrap w-[350px] mr-1 mb-1">
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Healthcare</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Marketing</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">IT</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md">Science</div>
+              </div>
+              <div className="flex flex-col flex-wrap w-[350px] mr-1 mb-1">
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Retail</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Construction</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Pharmaceutical</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md">Logistics</div>
+              </div>
+              <div className="flex flex-col flex-wrap w-[350px] mr-1 mb-1">
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Finance & Accounting</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Business</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md mb-1">Engineering</div>
+                <div className="bg-gradient-to-tr from-blue-700 to-blue-800 py-10 rounded-md">Law</div>
               </div>
             </div>
-
+          </div>
         </div>
         <div className="mt-32">
             <h2 className="p-5 font-poppins text-[35px] text-center lg:text-left">View Recent Job Posts</h2>
             <div className="flex flex-wrap flex-row text-center text-blue-800">
-                <div className="text-[17px] border-y-2 border-y-blue-800 w-[100%] px-5 py-2">
+                <div className="text-[17px] w-[100%] px-5 py-2">
+                  <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Staff for a hotel in Cornwall, UK</h1>
-                    <div className='max-w-[500px] m-auto text-left'>
+                    <div className='max-w-[500px] m-auto text-left bg-blue-800 text-white'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Job role: </h1>
                       <ul>
                         <li className='inline'>General assistant and waiter</li>
@@ -71,8 +75,10 @@ const Home = () => {
                         <li className="list-disc">immediate start after an interview and approval by the employer</li>
                       </ul>
                     </div>
+                  </div>
                 </div>
-                <div className="text-[17px] border-y-2 border-y-blue-800 w-[100%] px-5 py-2">
+                <div className="text-[17px] w-[100%] px-5 py-2">
+                  <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Kitchen helpers</h1>
                     <div className='max-w-[500px] m-auto text-left'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Job description: </h1>
@@ -94,8 +100,10 @@ const Home = () => {
                         <li className="list-disc">temporary contract - until the end of October; there is a possibility that the temporary employment contract will become permanent</li>
                       </ul>
                     </div>
+                  </div>
                 </div>
-                <div className="text-[17px] border-y-2 border-y-blue-800 w-[100%] px-5 py-2">
+                <div className="text-[17px] w-[100%] px-5 py-2">
+                  <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Team Leader at a recycling plant in the UK, Birmingham</h1>
                     <div className='max-w-[500px] m-auto text-left'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Job description: </h1>
@@ -148,8 +156,10 @@ const Home = () => {
                         <li className="">immediate start after approval by the employer</li>
                       </ul>
                     </div>
+                  </div>
                 </div>
-                <div className="text-[17px] border-y-2 border-y-blue-800 w-[100%] px-5 py-2">
+                <div className="text-[17px] w-[100%] px-5 py-2">
+                  <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Product Line Operator / Sorter for recycling plant job in UK, Birmingham area</h1>
                     <div className='max-w-[500px] m-auto text-left'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Main Responsibilities: </h1>
@@ -163,7 +173,6 @@ const Home = () => {
                         <li className='inline'>Perform any tasks as required by a member of the management team</li>
                         <li className='inline'>Flexibility in working according to the needs of the business</li>
                       </ul>
-
                       <h1 className="text-[20px] font-helvetica text-left underline">We require:</h1> 
                       <ul className='pl-5'>
                         <li className="list-disc">Good spoken English and ability to communicate with everyone in the team</li>
@@ -183,23 +192,29 @@ const Home = () => {
                         <li className="list-disc">immediate start after approval by the employer</li>
                       </ul>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
-        {/* <div className="mt-32 mb-20 h-96">
-            <h2 className="p-5 font-poppins text-[35px] text-center lg:text-left">Testimonials</h2>
-            <div className="flex flex-wrap flex-row justify-center">
-                <div className="w-[40%] h-40 border-blue-800 border-2 m-3 mx-1">
-                </div>
-                <div className="w-[40%] h-40 border-blue-800 border-2 m-3 mx-1">
-                </div>
-                <div className="w-[40%] h-40 border-blue-800 border-2 m-3 mx-1">
-                </div>
-            </div>
-        </div> */}
       </section>
+    </>
+    }
+    </AnimatedPage>
     </>
   )
 }
 
 export default Home
+
+
+// <div className="mt-32 mb-20 h-96">
+//             <h2 className="p-5 font-poppins text-[35px] text-center lg:text-left">Testimonials</h2>
+//             <div className="flex flex-wrap flex-row justify-center">
+//                 <div className="w-[40%] h-40 border-blue-800 border-2 m-3 mx-1">
+//                 </div>
+//                 <div className="w-[40%] h-40 border-blue-800 border-2 m-3 mx-1">
+//                 </div>
+//                 <div className="w-[40%] h-40 border-blue-800 border-2 m-3 mx-1">
+//                 </div>
+//             </div>
+//         </div>

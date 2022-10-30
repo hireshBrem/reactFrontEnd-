@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import React from 'react';
+import AnimatedPage from './AnimatedPage';
 
 const Contact = () => {
   
@@ -9,6 +10,7 @@ const Contact = () => {
   
   return (
     <>
+    <AnimatedPage>
       <section className=''>
         <div className="bg-blue-800 w-[90%] m-auto flex flex-wrap flex-col font-poppins text-white shadow-2xl rounded mt-20">
           <form name="contact" method="post" className='sm:max-w-xl max-w-xs m-auto text-[20px] mb-10'>
@@ -29,6 +31,7 @@ const Contact = () => {
           </form>
         </div>
       </section>     
+    </AnimatedPage>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
+import AnimatedPage from './AnimatedPage'
 
 const About = () => {
   useEffect(() => {
@@ -7,6 +8,7 @@ const About = () => {
   })
 
   return (
+    <AnimatedPage>
     <div>
       <div className='max-w-4xl m-auto'>
         <div className='m-5'>
@@ -19,6 +21,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </AnimatedPage>
   )
 }
 

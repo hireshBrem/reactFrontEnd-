@@ -15,6 +15,7 @@
     "emailjs": "^4.0.1",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.1",
+    "framer-motion": "^7.6.2",
     "history": "^5.3.0",
     "nodemailer": "^6.7.8",
     "nodemailer-browser": "^0.1.0",
@@ -22,8 +23,10 @@
     "react": "^18.2.0",
     "react-burger-menu": "^3.0.8",
     "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3",
+    "react-loading-dot": "^1.0.6",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
