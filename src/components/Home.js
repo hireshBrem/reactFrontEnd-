@@ -55,7 +55,7 @@ const Home = () => {
                 <div className="text-[17px] w-[100%] px-5 py-2">
                   <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Staff for a hotel in Cornwall, UK</h1>
-                    <div className='max-w-[500px] m-auto text-left bg-blue-800 text-white'>
+                    <div className='max-w-[500px] m-auto p-4 text-left bg-blue-800 text-white'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Job role: </h1>
                       <ul>
                         <li className='inline'>General assistant and waiter</li>
@@ -80,7 +80,7 @@ const Home = () => {
                 <div className="text-[17px] w-[100%] px-5 py-2">
                   <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Kitchen helpers</h1>
-                    <div className='max-w-[500px] m-auto text-left'>
+                    <div className='max-w-[500px] p-4 m-auto text-left'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Job description: </h1>
                       <ul>
                         <li className='inline'>Mainline Links Ltd. are looking for 6 Kitchen Assistants for their site in Scotland from now until 1st November</li>
@@ -103,7 +103,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="text-[17px] w-[100%] px-5 py-2">
-                  <div className='text-white bg-blue-800 rounded-md py-5'>
+                  <div className='text-white p-4 bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Team Leader at a recycling plant in the UK, Birmingham</h1>
                     <div className='max-w-[500px] m-auto text-left'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Job description: </h1>
@@ -161,7 +161,7 @@ const Home = () => {
                 <div className="text-[17px] w-[100%] px-5 py-2">
                   <div className='text-white bg-blue-800 rounded-md py-5'>
                     <h1 className='text-[30px] underline pb-5'>Product Line Operator / Sorter for recycling plant job in UK, Birmingham area</h1>
-                    <div className='max-w-[500px] m-auto text-left'>
+                    <div className='max-w-[500px] p-4 m-auto text-left'>
                       <h1 className='text-[20px] font-helvetica text-left underline'>Main Responsibilities: </h1>
                       <ul>
                         <li className='inline'>Strict adherence to established health and safety standards</li>
